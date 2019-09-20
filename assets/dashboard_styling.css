@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI Light", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    margin: 0;
+    /*width: 97vw;*/
+    height: 100%;
+}
+
+.css_tab_selected {
+    background-color: #232323 !important;
+    box-shadow: 1px 1px 5px #A9A9A9 !important;
+    color: #d6d6d6 !important;
+}
+
+.css_stack {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.css_cell {
+    align-content: center;
+    align-items: stretch;
+    background-color: white;
+    box-shadow: 1px 1px 5px #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 1rem 1rem 0rem 0rem;
+}
+
+.css_figure {
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    overflow: auto;
+}
+
+/* CSS for styling tables */
+th, td {
+    border-bottom: 1px solid #232323;
+}
+td:nth-child(1) {
+    text-align: left;
+}
+td {
+    text-align: right;
+}
+tr:nth-child(even) {
+    background-color: #f3f0ed;
+} 
+th {
+    background: #fff !important;
+}
+tr:last-child {
+    background-color: #cbcbcb;
+    font-weight: bold;
+    text-align: right !important;
+}
+
+/* H4 is used for cell titles */
+h4 {
+    margin: 0px;
+    text-align: center; 
+}
